@@ -1,0 +1,119 @@
+* {
+  color: rgb(15, 1, 1);
+  font-family: monospace, "Courier New", Courier;
+}
+
+h1 {
+  width: 50%;
+  float: right;
+  font-size: 2.5rem;
+  margin: 0.5em 0;
+}
+
+img {
+  max-width: 50%;
+  width: 15%;
+  height: auto;
+  padding: 2px 0px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2em;
+  background-color: gray;
+  padding: 5px 5px;
+}
+
+header figure {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 0;
+}
+
+header figcaption {
+  margin: 0 1em;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  color: black;
+}
+.inputs {
+  margin: 10px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #ddd;
+  border-radius: 5px;
+}
+header .menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  padding: 0;
+  list-style: none;
+  background: #ddd;
+  border-radius: 5px;
+}
+
+li a {
+  font-size: 20px;
+  color: rgb(18, 19, 19);
+}
+a {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.home-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background: #ddd;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 2em;
+  padding: 1em;
+  background: #e9e1e1;
+  border-radius: 5px;
+  text-align: left;
+}
+.kas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 0;
+}
+.kas li {
+  list-style: none;
+}
